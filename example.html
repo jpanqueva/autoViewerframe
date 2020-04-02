@@ -1,0 +1,43 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+
+	<!-- Page Title -->
+	<title>New Template — Slides 4.1 Template Generator</title>
+
+	<!-- AutoViewer Scripts -->
+	<script src="src/autoViewerIframe.js" type="text/javascript"></script>
+ 
+	<!-- Boostrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+	
+	<div class="container text-center">
+		
+		<h2>Example </h2>
+		<div>
+			<input id="input_example" 
+			type="text" onload="$autoViewerYoutube.bind(this);" 
+			data-container-id="container_view_id" 
+			class="form-control" 
+			placeholder="Paste Your link youtube here..." />
+
+	  		<div id="container_view_id"></div>
+		</div>
+
+	</div>
+	
+
+	<script type="text/javascript">
+		document.addEventListener("DOMContentLoaded", function(event) { 
+  			//Example
+  			$autoViewerYoutube.bind(document.getElementById("input_example"));
+		});
+	</script>
+</body>
