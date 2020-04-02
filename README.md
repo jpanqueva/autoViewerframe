@@ -1,7 +1,7 @@
 # autoViewerIframe Library Javascript
 
 <h1 align="center">
-  <img src="https://github.com/Huemul/trae/blob/master/assets/logo.png" alt="trae">
+  <img src="https://github.com/jpanqueva/autoViewerframe/blob/master/scren.png?raw=true" alt="Example Grafic autoViewerIframe" />
 </h1>
 
 Javascript library that Allow detecting when a url is entered in an entry, and create an iframe with this transformed url, it is extracted and detected with a regular explanation and the url is constructed with a constant
