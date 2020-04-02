@@ -13,10 +13,26 @@ Javascript library that Allow detecting when a url is entered in an entry, and c
 <script src="src/autoViewerIframe.js" type="text/javascript"></script>
 ```
 
-## Use 
+## Use HTML
+```bash
+
+<input id="input_example" 
+			type="text" onload="$autoViewerYoutube.bind(this);" 
+			data-container-id="container_view_id" 
+			class="form-control" 
+			placeholder="Paste Your link youtube here..." />
+
+<div id="container_view_id"></div>
+
+```
+
+The "data-container-id" is the container id of iframe
+
+## Use JavaScript
 ```bash
 $autoViewerYoutube.bind(document.getElementById("input"));
 ```
+
 
 ## Configurations  
 ```bash
